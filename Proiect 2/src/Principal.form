@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Principal">
+  <grid id="27dc6" binding="rootPannel" layout-manager="GridLayoutManager" row-count="18" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="489"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="1848d">
+        <constraints>
+          <grid row="16" column="5" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="49fa3" class="javax.swing.JRadioButton" binding="btnsaratele">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="89" height="18"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Saratele"/>
+        </properties>
+      </component>
+      <component id="522bc" class="javax.swing.JRadioButton" binding="btncovrig">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="false"/>
+          <text value="Covrig cu Sare"/>
+        </properties>
+      </component>
+      <component id="37f81" class="javax.swing.JRadioButton" binding="btncioco">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Corn cu Ciocolata"/>
+        </properties>
+      </component>
+      <component id="3eceb" class="javax.swing.JRadioButton" binding="btncozonac">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cozonac"/>
+        </properties>
+      </component>
+      <component id="84867" class="javax.swing.JRadioButton" binding="btnpapanasi">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Papanasi"/>
+        </properties>
+      </component>
+      <component id="78a80" class="javax.swing.JRadioButton" binding="btnalba">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Paine Alba"/>
+        </properties>
+      </component>
+      <component id="7b3d9" class="javax.swing.JLabel" binding="lblprod">
+        <constraints>
+          <grid row="0" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="         Selectati un produs:"/>
+        </properties>
+      </component>
+      <component id="c8497" class="javax.swing.JButton" binding="btninfo">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Informatii Produse"/>
+        </properties>
+      </component>
+      <component id="c45e7" class="javax.swing.JButton" binding="btnloc">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Informatii Locatie"/>
+        </properties>
+      </component>
+      <component id="75f14" class="javax.swing.JButton" binding="btnptotal">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculati pretul total"/>
+        </properties>
+      </component>
+      <component id="9e143" class="javax.swing.JLabel" binding="lblpretintr">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Introduceti pretul produsului :"/>
+        </properties>
+      </component>
+      <component id="f0e74" class="javax.swing.JTextField" binding="txtPret">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c2d23" class="javax.swing.JLabel" binding="lblpret">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   Pretul total este: "/>
+        </properties>
+      </component>
+      <component id="8b6c7" class="javax.swing.JLabel" binding="lblcant">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   Introduceti cantitatea dorita (grame):"/>
+        </properties>
+      </component>
+      <component id="6a757" class="javax.swing.JTextField" binding="txtcant">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="10ab" class="javax.swing.JLabel" binding="lblInfoProd">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="         "/>
+        </properties>
+      </component>
+      <component id="1fa59" class="javax.swing.JLabel" binding="lblinfo">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   Numele , codul si brutaria alimentelor sunt: "/>
+        </properties>
+      </component>
+      <component id="e9d59" class="javax.swing.JLabel" binding="lblInfoLoc">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="        "/>
+        </properties>
+      </component>
+      <component id="30fdc" class="javax.swing.JLabel" binding="lbllocatie">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="   Locatia este:"/>
+        </properties>
+      </component>
+      <component id="9a1cd" class="javax.swing.JLabel" binding="lblpretfinal">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="53472" class="javax.swing.JLabel" binding="lbllei">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="  LEI        "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="49fa3"/>
+      <member id="522bc"/>
+      <member id="37f81"/>
+      <member id="3eceb"/>
+      <member id="84867"/>
+      <member id="78a80"/>
+    </group>
+  </buttonGroups>
+</form>
